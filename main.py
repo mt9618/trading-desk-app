@@ -311,7 +311,7 @@ If invalid, output strictly: "REJECTED: [Brief reason]"
           "https://api.groq.com/openai/v1/chat/completions",
           headers=headers,
           json={
-              "model": "llama-3.3-70b-specdec",
+              "model": "llama-3.1-8b-instant",
               "messages": [{"role": "user", "content": prompt}],
               "temperature": 0.15,
           },
